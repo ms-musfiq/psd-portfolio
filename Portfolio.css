@@ -1,0 +1,554 @@
+/* =============================================
+ Common CSS
+===============================================*/
+body{
+    max-width: 1170px;
+    width: 100%;
+    height: auto;
+    color: #8c8c8c;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* =============================================
+ Header-area CSS
+===============================================*/
+.top-header{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo-area{
+    width: 30%;
+    float: left;
+}
+
+.logo{
+    padding-top: 40px;
+}
+
+.logo-area h1{
+    display: inline;
+    padding-top: 35px;
+    position: absolute;
+    font-size: 34px;
+    color: #fff;
+}
+
+.mini-menu{
+    width: 60%;
+    float: left;
+}
+
+.mini-menu ul{
+    margin-top: 55px;
+    text-align: left;
+}
+
+.mini-menu ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.mini-menu ul li a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mini-menu ul li a:hover{
+    color: #998675;
+    cursor: pointer;
+}
+
+.search-area{
+    width: 10%;
+    float: right;
+    margin-top: 55px;
+    text-align: right;
+    position: relative;
+}
+
+.search:hover{
+    cursor: pointer;
+}
+
+.cart{
+    margin-right: 30px;
+}
+
+.cart:hover{
+    cursor: pointer;
+}
+
+/* =============================================
+ slide-area CSS
+===============================================*/
+.slide-area{
+    max-width: 1920px;
+    width: 100%;
+    height: 1025px;
+    margin-top: -105px;
+    position: relative;
+}
+
+.slide-area p{
+    position: absolute;
+    width: 100%;
+    color: red;
+    font-size: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 45%;
+    z-index: 1;
+}
+
+.slide-area img{
+    width: 1920px;
+    height: 1025px;
+}
+
+/* =============================================
+ info-area CSS
+===============================================*/
+.info{
+    width: 1170px;
+    height: 375px;
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.info div h3{
+    font-size: 22px;
+}
+
+.info div p{
+    font-size: 14 px;
+}
+
+.info-one{
+    width: 265px;
+    height: 200px;
+    float: left;
+}
+
+.info-two{
+    width: 265px;
+    height: 200px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.info-three{
+    width: 265px;
+    height: 200px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.info-four{
+    width: 265px;
+    height: 200px;
+    float: right;
+    margin-top: 10px;
+}
+
+/* =============================================
+ Project-area CSS
+===============================================*/
+.project{
+    width: 1170px;
+    text-align: center;
+    margin: auto;
+    margin-top: -70px;
+}
+
+.project h3{
+    font-size: 30px;
+}
+
+.project p{
+    width: 765px;
+    margin: auto;
+}
+
+/* =============================================
+ Project-area CSS
+===============================================*/
+.video video{
+    width: 1170px;
+    height: auto;
+    margin-top: 50px;
+}
+
+/* =============================================
+ Project-area CSS
+===============================================*/
+.project-menu{
+    width: 1170px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.project-menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 30px;
+    color: black;
+}
+
+.project-menu ul li:hover{
+    color: white;
+    background-color: #998675;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+
+.project-menu ul li a{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.project-menu ul li a:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+.card-div{
+    padding-top: 15px;
+    float: left;
+    margin-right: 15px;
+}
+
+.project-menu div{
+    width: 370px;
+    height: auto;
+}
+
+.text-div{
+    margin-top: -20px;
+    padding: 35px 0px ;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.text-div:hover{
+    background-color: #362f2d;
+    transition: .3s;
+}
+
+.text-div h3{
+    font-size: 20px;
+    color: #fff;
+}
+
+.text-div p{
+    margin-top: -15px;
+    font-size: 14px;
+}
+
+.project-menu button{
+    margin-top: 40px;
+    width: 170px;
+    height: 50px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #998675;
+    color: #fff;
+    transition: .3s;
+}
+
+.project-menu button:hover{
+    background-color: inherit;
+    border: 1px solid  #998675;
+    color:   #998675;
+    cursor: pointer;
+}
+
+
+.responsiv{
+    width: 1170px;
+    height: auto;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.responsiv-part{
+    width: 680px;
+    height: auto;
+    float: right;
+    margin-top: 170px;
+    margin-right: 20px;
+}
+
+.responsiv-part img{
+    display: block;
+    padding-top: 5px;
+    margin-left: 40px;
+}
+
+.responsiv-part h2{
+    font-size: 30px;
+    color: #555555;
+}
+
+.responsiv-part p{
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+.responsiv-part ul{
+    margin-top: -105px;
+    list-style: none;
+    margin-left: 40px;
+    line-height: 1.7em;
+    z-index: 2;
+}
+/* =============================================
+ review-area CSS
+===============================================*/
+.review{
+    max-width: 1170px;
+    width: 100%;
+    height: 300px;
+    background-image: url(img/review.png);
+    margin-top: -6px;
+}
+
+.review div{
+    width: 20%;
+    height: auto;
+    text-align: center;
+    float: left;
+    margin-top: 80px;
+}
+
+.review  div h3{
+    font-size: 48px;
+    font-family: fantasy;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.review div p{
+    color: #998675;
+    margin-top: -25px;
+}
+
+/* =============================================
+ main footer-area CSS
+===============================================*/
+footer{
+    margin-top: -7px;
+}
+
+.post-area{
+    height: 500px;
+    background-color: #191919;
+    padding-top: 80px;
+    position: relative;
+    width: 100%;
+}
+
+.post-area .one{
+    width: 23%;
+    padding-left: 5px;
+    padding-right: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.post-area .one h2{
+    display: inline-block;
+    margin-top: 15px;
+    position: absolute;
+    font-size: 34px;
+    color: #fff;
+}
+
+.post-area .one a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.post-area .two{
+    width: 23%;
+    padding-left: 5px;
+    padding-right: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.post-area .two h2{
+    font-size: 24px;
+    color: #fff;
+}
+
+.post-area .two p{
+    margin-top: -20px;
+}
+
+.post-area .two h4{
+    font-size: 12px;
+    color: #998675;
+}
+
+.post-area .three{
+    width: 23%;
+    padding-left: 5px;
+    padding-right: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.post-area .three a{
+    color: #01b7e9;
+    text-decoration: none;
+}
+
+.post-area .three a:hover{
+    cursor: pointer;
+}
+
+.post-area .three .text{
+    display: inline;
+}
+
+.post-area .three .text1{
+    display: inline;
+    color: #eceaea;
+}
+
+.post-area .three h2{
+    font-size: 24px;
+    color: #fff;
+}
+
+.post-area .three h4{
+    font-size: 12px;
+    color: #998675;
+    margin-top: -15px;
+}
+
+.post-area .four{
+    width: 23%;
+    padding-left: 5px;
+    padding-right: 10px;
+    float: left;
+}
+
+.post-area .four h3{
+    font-size: 24px;
+    color: #fff;
+}
+
+.post-area .four a{
+    opacity: .5;
+}
+
+
+.post-area .four a:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* =============================================
+ copywrite footer-area CSS
+===============================================*/
+footer .copywrite-area{
+    width: 100%;
+    height: 110px;
+    background-color: #111111;
+    font-size: 13px;
+}
+
+.copywrite{
+    width: 48%;
+    padding-top: 30px;
+    float: left;
+    clear: both;
+}
+
+.one{
+    color: #fff;
+}
+
+.menu-1{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu-1 p{
+    display: inline;
+}
+
+.menu-2{
+    display: inline-block;
+}
+
+.menu-2 ul{
+    list-style-type: none;
+    text-align: center;
+    margin-left: -25px;
+}
+
+.menu-2 ul li{
+    display: inline;
+    margin-right: 15px;
+    position: relative;
+}
+
+.menu-2 ul li::before{
+    position: absolute;   
+    content: "";
+    background-color:#998675 ;
+    width: 1px;
+    height: 13px;
+    top: 1px;
+    left:-9px;
+}
+
+
+
+.credite{
+    width: 25%;
+    padding-top: 30px;
+    float: right;
+}
+
+.credite ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.credite ul li a:hover{
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
